@@ -1,0 +1,43 @@
+{
+  "name": "looot-js",
+  "version": "0.1.0",
+  "description": "TypeScript client for the looot API: search, inspect and run data provider operations with one token.",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "node --test test/client.test.ts",
+    "test:live": "node --test test/free-routes.live.test.ts",
+    "scan": "bash scripts/leak-scan.sh .",
+    "ci": "npm run scan && npm run typecheck && npm test && npm run build"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "keywords": [
+    "looot",
+    "api",
+    "sdk",
+    "enrichment",
+    "email verification",
+    "seo",
+    "scraping"
+  ],
+  "homepage": "https://looot.ai",
+  "license": "SEE LICENSE IN LICENSE"
+}
