@@ -8,14 +8,13 @@ The client is hand-written over `fetch` from the public OpenAPI at
 https://api.looot.ai/openapi.json. It has no runtime dependencies and runs on Node 22.18+, Bun,
 Deno and modern browsers.
 
-> Status: private and unpublished. The npm name `looot` belongs to the looot CLI, so this
-> package is called `looot-js` for now (free on npm today, not reserved). Install from this
-> folder until a release exists.
+> Status: public, MIT. The npm name `looot` belongs to the looot CLI, so this package is
+> `looot-js`. It is not on npm yet; until then install from GitHub.
 
 ## Install
 
 ```bash
-npm install /path/to/looot-js      # local, until a release exists
+npm install github:loootai/looot-js     # until the npm release
 ```
 
 ## 60-second quickstart
@@ -106,4 +105,4 @@ git config core.hooksPath .githooks
 
 ## License
 
-Proprietary, all rights reserved. See [LICENSE](LICENSE).
+MIT. See [LICENSE](LICENSE).
