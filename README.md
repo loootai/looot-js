@@ -1,4 +1,8 @@
+<p align="center"><img src="assets/hero.png" alt="looot-js: Typed TypeScript client for looot" width="100%"></p>
+
 # looot for TypeScript
+
+[![License](https://img.shields.io/github/license/loootai/looot-js)](LICENSE) [![Docs](https://img.shields.io/badge/docs-docs.looot.ai-12A06A)](https://docs.looot.ai)
 
 A small typed client for the [looot](https://looot.ai) REST API. looot is one gateway to about
 2,500 data provider operations (email find and verify, company enrichment, SEO and SERP data,
