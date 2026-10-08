@@ -4,6 +4,15 @@ A small typed client for the [looot](https://looot.ai) REST API. looot is one ga
 2,500 data provider operations (email find and verify, company enrichment, SEO and SERP data,
 social profiles, web scraping) with one token, one prepaid balance and one run contract.
 
+## Install for agents
+
+```bash
+npm install github:loootai/looot-js
+claude mcp add --transport http looot https://api.looot.ai/mcp
+```
+
+See also: [awesome-looot-use-cases](https://github.com/loootai/awesome-looot-use-cases) (copy-paste recipes) and [awesome-gtm](https://github.com/loootai/awesome-gtm) (open-source GTM tools).
+
 The client is hand-written over `fetch` from the public OpenAPI at
 https://api.looot.ai/openapi.json. It has no runtime dependencies and runs on Node 22.18+, Bun,
 Deno and modern browsers.
