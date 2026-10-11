@@ -11,7 +11,7 @@ social profiles, web scraping) with one token, one prepaid balance and one run c
 ## Install for agents
 
 ```bash
-npm install github:loootai/looot-js
+npm install looot-js
 claude mcp add --transport http looot https://api.looot.ai/mcp
 ```
 
@@ -22,12 +22,12 @@ https://api.looot.ai/openapi.json. It has no runtime dependencies and runs on No
 Deno and modern browsers.
 
 > Status: public, MIT. The npm name `looot` belongs to the looot CLI, so this package is
-> `looot-js`. It is not on npm yet; until then install from GitHub.
+> `looot-js`.
 
 ## Install
 
 ```bash
-npm install github:loootai/looot-js     # until the npm release
+npm install looot-js
 ```
 
 ## 60-second quickstart
