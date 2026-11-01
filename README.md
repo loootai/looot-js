@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/github/license/loootai/looot-js)](LICENSE) [![Docs](https://img.shields.io/badge/docs-docs.looot.ai-12A06A)](https://docs.looot.ai)
 
 A small typed client for the [looot](https://looot.ai) REST API. looot is one gateway to about
-2,500 data provider operations (email find and verify, company enrichment, SEO and SERP data,
+4,200+ data provider operations (email find and verify, company enrichment, SEO and SERP data,
 social profiles, web scraping) with one token, one prepaid balance and one run contract.
 
 ## Install for agents
@@ -17,8 +17,8 @@ claude mcp add --transport http looot https://api.looot.ai/mcp
 
 See also: [awesome-looot-use-cases](https://github.com/loootai/awesome-looot-use-cases) (copy-paste recipes) and [awesome-gtm](https://github.com/loootai/awesome-gtm) (open-source GTM tools).
 
-The client is hand-written over `fetch` from the public OpenAPI at
-https://api.looot.ai/openapi.json. It has no runtime dependencies and runs on Node 22.18+, Bun,
+The client is hand-written over `fetch` and follows the API reference at
+https://docs.looot.ai/reference. It has no runtime dependencies and runs on Node 22.18+, Bun,
 Deno and modern browsers.
 
 > Status: public, MIT. The npm name `looot` belongs to the looot CLI, so this package is
@@ -111,7 +111,7 @@ git config core.hooksPath .githooks
 
 ## Links
 
-- API reference: https://api.looot.ai/openapi.json
+- API reference: https://docs.looot.ai/reference
 - Agent guide: https://api.looot.ai/llms.txt and https://api.looot.ai/llms-full.txt
 - Docs: https://looot.ai/docs
 - MCP server: https://api.looot.ai/mcp
